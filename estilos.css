@@ -1,7 +1,4 @@
-nav {
-    background-color: cadetblue;
-}
-
+/* estilos.css */
 img {
     width: 150px;
     height: 150px;
@@ -9,8 +6,29 @@ img {
     border-style: solid;
 }
 
+header {
+    background-color: cadetblue;
+    padding: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+h1{
+    font-family: 'Courier New', monospace;
+}
+
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    border: 2px solid black;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
