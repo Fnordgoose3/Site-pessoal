@@ -20,12 +20,32 @@ h1{
     font-family: 'Courier New', monospace;
 }
 
-.container {
+.container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     border: 2px solid black;
 }
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+ .card {
+    border: 2px solid black;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: 150px;
+}
+
 
 .layout {
     display: flex;
